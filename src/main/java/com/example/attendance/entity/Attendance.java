@@ -18,7 +18,7 @@ public class Attendance {
     private LocalDateTime breakEnd;
 
     // getter/setter
-    public Long getId() { return id; }
+    public Long getId() { return id;  }
 
     public LocalDate getWorkDate() { return workDate; }
     public void setWorkDate(LocalDate workDate) { this.workDate = workDate; }
